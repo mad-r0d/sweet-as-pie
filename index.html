@@ -1,1 +1,75 @@
 <!-- Roddy's World homepage HTML goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roddy’s World</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://emoji.gg/assets/emoji/flower.png" />
+</head>
+<body>
+  <div class="cursor"></div>
+
+  <header>
+    <h1>Roddy’s World 🌸</h1>
+    <button id="muteBtn">🔊</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>My Favorites</h2>
+      <ul>
+        <li>🎧 Music: Vira Talisa, Laufey, Clairo</li>
+        <li>🍪 Snacks: Apple pie, mochi, fruit snacks</li>
+        <li>🎬 Movies: Coraline, 10 Things I Hate About You, Spirited Away</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Things I Love</h2>
+      <p>Crafting, baking, yoga, puzzles, thrifting, silver jewelry, cute gadgets 💖</p>
+    </section>
+
+    <section>
+      <h2>Moodboard</h2>
+      <img src="https://i.imgur.com/kN8YcMZ.jpeg" alt="mood1" class="gallery-img" />
+      <img src="https://i.imgur.com/sGAuVXo.jpeg" alt="mood2" class="gallery-img" />
+    </section>
+
+    <section>
+      <h2>Links</h2>
+      <ul class="links">
+        <li><a href="https://instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://pinterest.com/" target="_blank">Pinterest</a></li>
+        <li><a href="https://open.spotify.com/" target="_blank">Spotify</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Quotes & Journal</h2>
+      <blockquote>“Maybe the moon is beautiful only because it is far.” – Mahmoud Darwish</blockquote>
+    </section>
+
+    <section>
+      <h2>Guestbook</h2>
+      <form>
+        <input type="text" placeholder="Your name" required />
+        <textarea placeholder="Leave a message ✨" required></textarea>
+        <button type="submit">Sign ✍️</button>
+      </form>
+    </section>
+  </main>
+
+  <audio id="bg-music" src="https://files.catbox.moe/fdz6tt.mp3" autoplay loop></audio>
+  <script src="cursor.js"></script>
+  <script>
+    const music = document.getElementById('bg-music');
+    const muteBtn = document.getElementById('muteBtn');
+    muteBtn.onclick = () => {
+      music.muted = !music.muted;
+      muteBtn.textContent = music.muted ? '🔇' : '🔊';
+    };
+  </script>
+</body>
+</html>
