@@ -1,0 +1,1 @@
+// JavaScript for sparkle cursor goes here
