@@ -48,7 +48,7 @@ ul {
 }
 
 .links a {
-  color: mediumvioletred;
+  color: red;
   font-weight: bold;
   text-decoration: none;
 }
@@ -63,9 +63,9 @@ form textarea {
 }
 
 form button {
-  background-color: palevioletred;
+  background-color: CornflowerBlue;
   border: none;
-  color: white;
+  color: DarkGreen;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
