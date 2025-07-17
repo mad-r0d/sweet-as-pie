@@ -15,4 +15,4 @@ const sparkleTrail = () => {
   setTimeout(() => sparkle.remove(), 500);
 };
 
-setInterval(sparkleTrail, 60);
+setInterval(sparkleTrail, 100);
