@@ -18,7 +18,7 @@ body {
   font-family: 'Luminari', cursive, sans-serif;
   background: url('https://images.pexels.com/photos/3163721/pexels-photo-3163721.jpeg?_gl=1*1kmhz7q*_ga*MjEyNjgxMjg2LjE3NTI3NjY4NzA.*_ga_8JE65Q40S6*czE3NTI3NjY4NjkkbzEkZzEkdDE3NTI3NjcxNzUkajU5JGwwJGgw'); /* under the sea*/
   background-size: cover;
-  color: #99d0f0;
+  color: #fad9f2;
   cursor: none;
 }
 
@@ -26,8 +26,9 @@ header {
   text-align: center;
   padding: 2rem 1rem 1rem;
   background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   border-bottom: 2px dashed pink;
+
 }
 
 h1 {
@@ -61,7 +62,7 @@ ul {
 }
 
 .links a {
-  color: red;
+  color: pink;
   font-weight: bold;
   text-decoration: none;
 }
@@ -106,7 +107,7 @@ form button {
   position: absolute;
   width: 8px;
   height: 8px;
-  background: pink;
+  background: Gold;
   border-radius: 50%;
   opacity: 0.8;
   box-shadow: 0 0 6px white;
