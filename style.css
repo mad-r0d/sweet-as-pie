@@ -26,14 +26,12 @@ nav a {
 header {
   text-align: center;
   padding: 2rem 1rem 1rem;
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(5px);
-  border-bottom: 2px dashed pink;
+  border-bottom: 2px double gold;
 }
 
 h1 {
   color: hotpink;
-  text-shadow: 0 0 8px lightblue;
+  text-shadow: 0 0 8px darkblue;
   font-size: 2.5rem;
 }
 
@@ -71,7 +69,7 @@ ul {
 }
 
 .links a {
-  color: pink;
+  color: gold;
   font-weight: bold;
   text-decoration: none;
 }
