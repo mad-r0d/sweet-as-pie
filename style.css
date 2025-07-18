@@ -10,15 +10,15 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
-  color: hotpink;
+  color: Red;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: 'Luminari', cursive, sans-serif;
-  background: url('https://images.pexels.com/photos/3163721/pexels-photo-3163721.jpeg?_gl=1*1kmhz7q*_ga*MjEyNjgxMjg2LjE3NTI3NjY4NzA.*_ga_8JE65Q40S6*czE3NTI3NjY4NjkkbzEkZzEkdDE3NTI3NjcxNzUkajU5JGwwJGgw'); /* under the sea*/
+  <img src="image for web.png" alt="Las Vegas image" >
   background-size: cover;
-  color: #fad9f2;
+  color: Black;
   cursor: none;
 }
 
@@ -77,7 +77,7 @@ form textarea {
 }
 
 form button {
-  background-color: CornflowerBlue;
+  background-color: Gold;
   border: none;
   color: Purple;
   padding: 0.5rem 1rem;
