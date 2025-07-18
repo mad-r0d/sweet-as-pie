@@ -11,9 +11,9 @@ body {
 
 nav {
   text-align: center;
-  background-color: #fff8fc;
+  background-color: #8a3236;
   padding: 1rem;
-  border-bottom: 2px dashed pink;
+  border-bottom: 2px double gold;
 }
 
 nav a {
@@ -147,7 +147,7 @@ form button {
   top: -20px;
   width: 4px;
   height: 20px;
-  background: white;
+  background: yellow;
   border-radius: 50%;
   opacity: 0.8;
   animation: fall 2s linear forwards;
@@ -156,7 +156,7 @@ form button {
 
 @keyframes fall {
   to {
-    transform: translateY(100vh) rotate(45deg);
+    transform: translateY(100vh) rotate(30deg);
     opacity: 0;
   }
 }
