@@ -1,4 +1,14 @@
-/* CSS styles for Maddy's World go here */
+/* CSS styles for Maddy's World */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Luminari', cursive, sans-serif;
+  color: gold;
+  background-color: black;
+  cursor: none;
+}
+
 nav {
   text-align: center;
   background-color: #fff8fc;
@@ -10,22 +20,7 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
-  color: Red;
-}
-<style>
-img {
-  display: block;
-  margin: auto;
-}
-</style>
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Luminari', cursive, sans-serif;
-  color: Gold;
-  cursor: none;
-  background-color: Black;
-
+  color: red;
 }
 
 header {
@@ -34,7 +29,6 @@ header {
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(5px);
   border-bottom: 2px dashed pink;
-
 }
 
 h1 {
@@ -67,10 +61,24 @@ ul {
   box-shadow: 0 0 10px pink;
 }
 
+/* Top image centering */
+.hero-img {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
 .links a {
   color: pink;
   font-weight: bold;
   text-decoration: none;
+}
+
+.links a:hover {
+  color: #ffe97f;
+  text-decoration: underline;
 }
 
 form input,
@@ -83,9 +91,9 @@ form textarea {
 }
 
 form button {
-  background-color: Gold;
+  background-color: gold;
   border: none;
-  color: Purple;
+  color: purple;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -100,10 +108,12 @@ form button {
   top: 1rem;
   right: 1rem;
 }
+
+/* Sparkle Cursor */
 .cursor {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background: transparent;
   pointer-events: none;
   z-index: 10000;
@@ -113,7 +123,7 @@ form button {
   position: absolute;
   width: 8px;
   height: 8px;
-  background: Gold;
+  background: gold;
   border-radius: 50%;
   opacity: 0.8;
   box-shadow: 0 0 6px white;
